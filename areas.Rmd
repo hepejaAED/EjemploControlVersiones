@@ -20,5 +20,5 @@ Area<-pi*r^2
 
 ```{r}
 r<-0.5
-Area_cuadrado<-r**2
+Area_cuadrado<-r^3
 ```
