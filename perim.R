@@ -1,3 +1,7 @@
-areacuadrado<-function(L){
-  return(4*L)
-  }
+PerimetroCuadrado <- function(lado) {
+  4 * lado
+}
+
+LongitudCircunf <- function(R) {
+  2 * pi * R
+}
