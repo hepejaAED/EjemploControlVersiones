@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-Perimetro <- function(lado) {
-  4 * lado
-}
-=======
 PerimetroCuadrado <- function(lado) {
   4*lado
 }
@@ -10,4 +5,3 @@ PerimetroCuadrado <- function(lado) {
 LongitudCircunf <- function(R) {
   2*pi*R
 }
->>>>>>> Perimetros
