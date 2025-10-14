@@ -17,6 +17,6 @@ area_trapecio<-function(b,B,H){
 (b+B)*H/2  
 }
 =======
-perimetro_rectangulo <- function(largo, ancho) { 
-  2 * (largo + ancho) }
+perimetro_rectangulo <- function(l, L) { 
+  2 * (l + L) }
 >>>>>>> Rama2
