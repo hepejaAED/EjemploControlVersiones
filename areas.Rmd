@@ -18,7 +18,7 @@ areacuadrado(2)
 
 
 
-# Area cuadrado
+# Área cuadrado
 
 ```{r}
 r<-0.5
