@@ -16,3 +16,20 @@ r<-0.5
 Area<-pi*r^2
 ```
 
+
+# Área del triángulo
+
+```{r}
+area_triangulo <- function(base, altura) {
+  (base * altura) / 2
+}
+```
+# Área del rectángulo
+area_rectangulo <- function(base, altura) {
+  base * altura
+}
+```{r}
+area_rectangulo <- function(base, altura) {
+  base * altura
+}
+```
