@@ -12,13 +12,33 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Área círculo
 
 ```{r}
-r<-0.5
-Area<-pi*r^2
+source("perim.R")
+areacuadrado(2)
 ```
+
+
 
 # Area cuadrado
 
 ```{r}
 r<-0.5
-Area_cuadrado<-r^3
+Area_cuadrado<-r^2
+```
+
+
+# Área del triángulo
+
+```{r}
+area_triangulo <- function(base, altura) {
+  (base * altura) / 2
+}
+```
+# Área del rectángulo
+area_rectangulo <- function(base, altura) {
+  base * altura
+}
+```{r}
+area_rectangulo <- function(base, altura) {
+  base * altura
+}
 ```
