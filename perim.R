@@ -8,6 +8,9 @@ PerimetroCuadrado <- function(lado) {
 }
 
 LongitudCircunf <- function(R) {
-  2*pi*R
+  2*3.14159*R
 }
 >>>>>>> Perimetros
+
+perimetro_rectangulo <- function(largo, ancho) { 
+  2 * (largo + ancho) }
